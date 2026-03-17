@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "2e6183f2-7d40-4c22-964e-8f07ac63c456",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Usuario",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "86f5e367-1553-40c5-a6ef-4eefcca4859e",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Navegador",
@@ -275,6 +275,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -358,7 +359,6 @@
               ]
             },
             "id": "7ee5088f-863c-4991-aac3-c1e9a3d58f9c",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "API \nGateway",
@@ -395,6 +395,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +479,6 @@
               ]
             },
             "id": "15fd7c40-99f6-436c-81f6-ff87e0d8ad14",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Aplicaciones de\nterceros",
@@ -512,6 +512,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -595,7 +596,6 @@
               ]
             },
             "id": "45a11d04-0757-4308-b208-38d7057bb1ee",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Python \nbackend",
@@ -632,6 +632,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -715,7 +716,6 @@
               ]
             },
             "id": "cb6de478-fe59-4db0-aa9c-f9c6842fadd3",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Procesador\nde datos",
@@ -752,6 +752,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -835,7 +836,6 @@
               ]
             },
             "id": "ab15300a-b2c1-4dd8-ab89-bda8aff9be95",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "Emailer\nprocess",
@@ -872,6 +872,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -955,7 +956,6 @@
               ]
             },
             "id": "463cc958-155a-45f6-a188-a1c2946be6f9",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "Servidor\nSMTP",
@@ -995,6 +995,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1078,7 +1079,6 @@
               ]
             },
             "id": "1b840e99-ae4d-4e08-814a-13ae8d273f5b",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Data",
@@ -1119,6 +1119,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1202,7 +1203,6 @@
               ]
             },
             "id": "66f188fc-4695-40bf-b870-351481bdbf16",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
               "name": "Data\nprocesada",
